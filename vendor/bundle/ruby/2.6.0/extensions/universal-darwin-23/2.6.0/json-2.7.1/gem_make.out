@@ -1,0 +1,14 @@
+current directory: /Users/Developer/Documents/Freelance/ArtOfChicago/ArtOfChicago/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20240311-22243-150rjd7.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin23/rbconfig.rb:21: warning: Insecure world writable dir /Users/Developer/Documents/Freelance/ArtOfChicago in PATH, mode 040777
+creating Makefile
+
+current directory: /Users/Developer/Documents/Freelance/ArtOfChicago/ArtOfChicago/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/Developer/Documents/Freelance/ArtOfChicago/ArtOfChicago/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/Developer/Documents/Freelance/ArtOfChicago/ArtOfChicago/vendor/bundle/ruby/2.6.0/gems/json-2.7.1/ext/json
+make "DESTDIR=" install

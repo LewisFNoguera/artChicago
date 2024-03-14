@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@api/*": ["./src/api/*"],
+      "@components/*": ["./src/components/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@router/*": ["./src/router/*"],
+      "@context/*": ["./src/context/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@models/*": ["./src/models/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}
