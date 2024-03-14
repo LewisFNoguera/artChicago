@@ -1,6 +1,4 @@
-
-![Logo](https://lh3.googleusercontent.com/ci/AE9Axz-UOiHwM3wyAi7IrbuDtB55mriqXDk72TNfedzJtY7L-o3_un_BtjM1I1fgVtIiaqR6plQspeI)
-
+![aic_logo](https://github.com/LewisFNoguera/artChicago/assets/5133563/e9398acb-8b14-4e15-9328-1c42c204079d)
 
 # Art Institute of Chicago
 
