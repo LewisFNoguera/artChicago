@@ -256,3 +256,4 @@ vendor/
 *.xccheckout
 node_modules
 Pods/
+.vscode/
