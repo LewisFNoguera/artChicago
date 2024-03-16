@@ -49,7 +49,7 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container}>      
       <FlatList
         data={allArtworks}
         renderItem={renderArtItem}
