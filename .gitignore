@@ -252,3 +252,5 @@ vendor/
 ## Xcode 8 and earlier
 *.xcscmblueprint
 *.xccheckout
+node_modules
+Pods/
