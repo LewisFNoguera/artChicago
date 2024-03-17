@@ -13,7 +13,7 @@ const FavoritesScreen = ({ navigation }: FavoritesScreenProps) => {
   const favorites = useAppSelector(allFavorites);
   const handleItemPress = (item: Datum) => navigation.navigate('DetailScreen', { item });
 
-  const renderArtITem = ({ item, index }: { item: Datum; index: number }) => (
+  const renderArtItem = ({ item, index }: { item: Datum; index: number }) => (
     <ArtItem item={item} origin="Favorite" onPress={() => handleItemPress(item)} idx={index} />
   );
 
@@ -22,7 +22,7 @@ const FavoritesScreen = ({ navigation }: FavoritesScreenProps) => {
       <FlatList
         key={2}
         data={favorites}
-        renderItem={renderArtITem}
+        renderItem={renderArtItem}
         keyExtractor={(item) => item.id.toString()}
         horizontal={false}
         numColumns={2}

@@ -37,7 +37,7 @@ const ArtItem = ({ item, onPress, origin, idx }: ArtItemProps) => {
       style={styles.item}
       key={item.id.toString()}
     >
-      <TouchableOpacity onPress={onPress} style={styles.container}>
+      <TouchableOpacity testID="ArtItemGoDetail" onPress={onPress} style={styles.container}>
         <View style={styles.itemContainer}>
           <View style={styles.imageContainer}>
             {isFetching ? <ActivityIndicator size="small" color={COLORS.black} /> : <ImageArt image={item.image_id} />}
@@ -54,7 +54,7 @@ const ArtItem = ({ item, onPress, origin, idx }: ArtItemProps) => {
           {origin === 'Favorite' ? (
             <Button label="Remove from Favorites" onPress={() => handleRemoveArtWork(item)} type="danger" />
           ) : (
-            <Button label="Add to Favorites" onPress={() => handleAddArtWork(item)} type="primary" />
+            <Button  label="Add to Favorites" onPress={() => handleAddArtWork(item)} type="primary" />
           )}
         </View>
       </TouchableOpacity>

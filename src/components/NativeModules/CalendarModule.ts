@@ -1,27 +1,22 @@
-import {NativeModules} from 'react-native';
-import {Double} from 'react-native/Libraries/Types/CodegenTypes';
+import { NativeModules } from "react-native";
 
-const {CalendarModule} = NativeModules;
-
-export const fetchCalendarEvents = async () => {
-  try {
-    const events = await CalendarModule.fetchEvents();
-    return events;
-  } catch (error: any) {
-    throw new Error('Error fetching calendar events: ' + error.message);
-  }
-};
+const { CalendarModule } = NativeModules;
 
 export const addCalendarEvent = async (
   title: string,
-  startDate: Double,
-  endDate: Double,
-  note: string,
+  startDate: Number,
+  endDate: Number,
+  note: string
 ) => {
   try {
-    const result = await CalendarModule.addEvent(title, startDate, endDate, note);
+    const result = await CalendarModule.addEvent(
+      title,
+      startDate,
+      endDate,
+      note
+    );
     return result;
   } catch (error: any) {
-    throw new Error('Error adding calendar event: ' + error.message);
+    throw new Error("Error adding calendar event: " + error.message);
   }
 };

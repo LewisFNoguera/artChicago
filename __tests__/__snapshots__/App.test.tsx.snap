@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <RCTSafeAreaView
+            style={
+              {
+                "backgroundColor": "#fff",
+                "flex": 1,
+                "marginBottom": 10,
+              }
+            }
+          >
+            <RCTScrollView
+              ListEmptyComponent={[Function]}
+              ListHeaderComponent={<HomeHeader />}
+              data={[]}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              keyExtractor={[Function]}
+              onContentSizeChange={[Function]}
+              onEndReached={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              scrollEventThrottle={0.0001}
+              stickyHeaderIndices={[]}
+              viewabilityConfigCallbackPairs={[]}
+            >
+              <View>
+                <View
+                  collapsable={false}
+                  onLayout={[Function]}
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#000005",
+                        "fontSize": 40,
+                        "fontWeight": "bold",
+                        "margin": 20,
+                      }
+                    }
+                  >
+                    Art Institute of Chicago
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "#000005",
+                        "fontSize": 16,
+                        "margin": 20,
+                      }
+                    }
+                  >
+                    Below you will find works of art that you can find in our gallery.
+                  </Text>
+                </View>
+                <ActivityIndicator
+                  color="#000005"
+                  size="small"
+                />
+              </View>
+            </RCTScrollView>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignSelf": "center",
+                  "borderColor": "#000005",
+                  "borderRadius": 50,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "opacity": 1,
+                  "padding": 15,
+                  "width": "80%",
+                }
+              }
+              testID="ActionButton"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 12,
+                      "textAlign": "center",
+                    },
+                    {
+                      "color": "#000005",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                My Favorites (0)
+              </Text>
+            </View>
+          </RCTSafeAreaView>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={true}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Home"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

@@ -21,6 +21,7 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
   const allFavoritesStored = useAppSelector(allFavorites);
   const { isFetching, status, pagination } = useAppSelector(artworksState);
 
+
   useEffect(() => {
     dispatch(gettingArtwork());
   }, [dispatch]);
@@ -36,7 +37,7 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
   };
 
   const renderArtItem = ({ item, index }: { item: Datum; index: number }) => (
-    <ArtItem item={item} origin="Home" onPress={() => handleItemPress(item)} idx={index} />
+    <ArtItem  item={item} origin="Home" onPress={() => handleItemPress(item)} idx={index} />
   );
 
   const onEndReached = () => {

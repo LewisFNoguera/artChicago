@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from 'react';
-import * as RNBootSplash from 'react-native-bootsplash';
+import BootSplash from "react-native-bootsplash";
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { ToastProvider } from '@context/ToastContext';
@@ -9,7 +9,7 @@ import AppRouter from './src/router/appRouter';
 export default function App() {
   const init = useCallback(async () => {
     try {
-      await RNBootSplash.hide();
+      await BootSplash.hide();
     } catch (error) {
       console.error(error);
     }
